@@ -1,0 +1,16 @@
+วิธีใช้ git
+
+1. git version // ดูเวอร์ชั่น 2.0 ^
+2. git mkdir // สร้าง folder
+3. git init // สร้าง .git ห้ามแตะต้อง
+3. git status // ดูไฟล์อันไหน commit ได้
+4. git config --global user.name "   "
+   git config --global user.email "  " // ระบุตัว global ใช้กับคอมตัวเองทำทีเดียว
+5.git add ไฟล์ // เอาขึ้น stage
+6.git commit -m "  " // Checkpoint
+7.git log --all --decorate --oneline --graph // ดู commit ทั้งหมด
+8.สร้าง respository
+9.git remote add <ชื่อ remote เช่น origin> <git url>
+10.ถ้าตั้งชื่อผิด ให้ลบชื่อเก่าก่อน ด้วยคำสั่ง git remote remove <ชื่อ remote> แล้วจึงใช้คำสั่ง git remote add … อีกครั้ง
+11.git push -u origin master // ทำ -u origin master ครั้งเดียว ครั้งแรกให้ login
+12.git checkout <commit-id> <ชื่อไฟล์> // ใส่ชื่อไฟล์ถ้าอยากเอากลับมาบางอัน
