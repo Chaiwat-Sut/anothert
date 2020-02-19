@@ -1,0 +1,11 @@
+1. git branch <branch>// game update 
+2. git branch // check branch
+3. git checkout <branch> // change branch
+4. git push <remote> <branch> // must be in the same branh to push
+5. git merge <branch> // combine branchs to what branch you in
+/*git clone <url> <new folder name>*\
+6. git pull <remote> <branch> // pull file to computer to update
+
+conflict merge
+
+1.git checkout -b <branch> // create and change branch
